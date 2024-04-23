@@ -1,7 +1,7 @@
 <html>
     <body>
         <h2>SEND A POST</h2>
-        <form action="posts" method="post">
+        <form action="posts" method="post" enctype="multipart/form-data">
             <div>
                 <label for="title">Title:</label>
                 <input type="text" name="title" id="title" maxlength="100">
